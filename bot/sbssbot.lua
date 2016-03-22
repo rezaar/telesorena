@@ -253,7 +253,8 @@ function create_config( )
     "text",
     "time",
     "webshot",
-    "welcome"
+    "welcome",
+    addadmin",
     },
     sudo_users = {62283960},--Sudo users
     disabled_channels = {},
@@ -349,10 +350,12 @@ __________________________
 —------------------------------—
 تگ : صدا کردن افراد گروه
 —---------------------—
+مدیرو بیار:اوردن ادمی ربات به گروه خود در صورت مشکل
+-----------------------
 نیاز نیست از '!' و '/' استفاده کنید*
+
 _______________________________
-Writed by SBSS Team
-]]
+
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
